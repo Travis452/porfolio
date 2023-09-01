@@ -1,113 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css" type="text/css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" type="text/css" />
     <title>My Portfolio</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Travis Gorski</h1>
 
-    <hr>
-
- 
+    <hr />
 
     <div>
-        <h2 class= "intro-title" id = "about">Hello my name is Travis Gorski, welcome to my portfolio!</h2>
+      <h2 class="intro-title" id="about">
+        Hello my name is Travis Gorski, welcome to my portfolio!
+      </h2>
     </div>
 
     <div>
-        <p class="about">I am a Costco Supervisor, one of my friends recently introduced me to Front End Development and I've been hooked ever since.
-            At Costco I've realized that I want more from a job. I want to learn more, being a developer is just that.
-            I always have a passion for learning something new and never staying complacent. I have ideas and I want to learn more about software developement to bring my ideas to life and not just learn but become a great developer as well.
-        </p>
+      <p class="about">
+        I am a Costco Supervisor, one of my friends recently introduced me to
+        Front End Development and I've been hooked ever since. At Costco I've
+        realized that I want more from a job. I want to learn more, being a
+        developer is just that. I always have a passion for learning something
+        new and never staying complacent. I have ideas and I want to learn more
+        about software developement to bring my ideas to life and not just learn
+        but become a great developer as well.
+      </p>
 
-        <p class="about">
-            The area I am the strongest in are front end development, but i have taken courses on the back end of web development using Node.js,SQL, and MongoDB to get an understanding of the process as a whole.
-            I dont have many certifications at the moment but I am currently working on more and will update this portfolio as soon as they are finsihed. 
-        </p>
+      <p class="about">
+        The area I am the strongest in are front end development, but i have
+        taken courses on the back end of web development using Node.js,SQL, and
+        MongoDB to get an understanding of the process as a whole. I dont have
+        many certifications at the moment but I am currently working on more and
+        will update this portfolio as soon as they are finsihed.
+      </p>
     </div>
 
-    <hr>
-
+    <hr />
 
     <h1>PROJECTS</h1>
     <div class="drop-container" id="projects">
-    <div class="dropdown">
-        <button onclick=dropClick() class="dropbtn">Click Me</button>
-        
-         
-        <div id ="myDropdown" class="dropdown-content">    
-<h2 class="projects-title">Void</h2>
-<p>
-    Void is a personal project I am currently working on. This website is going to be for music artists, 
-    typically when you make music you end up with a bunch of unfinished projects that you may never use again and now they're just sitting in your folder
-     untouched when maybe someone else could use that project that you made and put it to good use. Void will be a social media app for just that the artist
-      will be able to upload the project/projects they dont like or know they aren't going to do anything with to the page where other artists can download
-       said projects and put them to good use. This project is being developed using React and will be implementing Firebase. 
-</p>
-<a href="https://github.com/Travis452/void">
+      <div class="dropdown">
+        <button onclick="dropClick()" class="dropbtn">Click Me</button>
 
-    <Button class="link-button">GitHub</Button>
-</a>
+        <div id="myDropdown" class="dropdown-content">
+          <h2 class="projects-title">Void</h2>
+          <p>
+            Void is a personal project I am currently working on. This website
+            is going to be for music artists, typically when you make music you
+            end up with a bunch of unfinished projects that you may never use
+            again and now they're just sitting in your folder untouched when
+            maybe someone else could use that project that you made and put it
+            to good use. Void will be a social media app for just that the
+            artist will be able to upload the project/projects they dont like or
+            know they aren't going to do anything with to the page where other
+            artists can download said projects and put them to good use. This
+            project is being developed using React and will be implementing
+            Firebase.
+          </p>
+          <a href="https://github.com/Travis452/void-project">
+            <button class="link-button">GitHub</button>
+          </a>
 
+          <h2 class="projects-title">Ecommerce Website</h2>
 
+          <p>
+            This is a project that I ended up doing for my friend and his
+            company BlindOath. I told him that his design was a little all over
+            the place so I made a much more simple UI, that was easy to
+            navigate, using React.
+          </p>
 
-<h2 class="projects-title"> Ecommerce Website </h2>
+          <a href="https://github.com/Travis452/blindoath">
+            <button class="link-button">GitHub</button>
+          </a>
 
-<p>
-   This is a project that I ended up doing for my friend and his company BlindOath. 
-   I told him that his design was a little all over the place so I made a much more simple UI, 
-   that was easy to navigate, using React.
-</p>
+          <h2 class="projects-title">Todo List application</h2>
 
-<a href="https://github.com/Travis452/blindoath">
+          <p>
+            This was another project I did within the Udemy course. I Developed
+            a todo list application using HTML,CSS,Javascript,Node.js and
+            MongoDB. The application includes features such as adding, editing
+            and deleting tasks and filter tasks by status.
+          </p>
+        </div>
+      </div>
+    </div>
 
-    <Button class="link-button">GitHub</Button>
-</a>
+    <h1>Certifications</h1>
 
-<h2 class="projects-title">Todo List application</h2>
+    <div class="drop-container" id="certs">
+      <div class="dropdown">
+        <button onclick="dropClick2()" class="dropbtn">Click Me</button>
 
-<p>This was another project I did within the Udemy course.
-   I Developed a todo list application using HTML,CSS,Javascript,Node.js and MongoDB.
-The application includes features such as adding, editing and deleting tasks and filter tasks by status.
+        <div id="myDropdownCert" class="dropdown-content-cert">
+          <img src = ./media/UdemyCert.jpg alt = "">
+        </div>
+      </div>
+    </div>
 
-</p>
+    <h1>Contact Me</h1>
 
+    <div>
+      <p>Feel free to contact me anytime.</p>
 
-</div>
-</div>
-</div>
+      <p>EMAIL: travisgorski97@gmail.com</p>
 
-<h1>Certifications</h1>
-
-<div class="drop-container" id = "certs">
-    <div class="dropdown">
-        <button onclick=dropClick2() class="dropbtn">Click Me</button>
-        
-         
-        <div id ="myDropdownCert" class="dropdown-content-cert">    
-
-<img src = ./media/UdemyCert.jpg alt = "">
-
-</div>
-</div>
-</div>
-
-<h1>Contact Me</h1>
-
-<div>
-    <p> Feel free to contact me anytime. </p>
-
-    <p> EMAIL: travisgorski97@gmail.com</p>  
-
-<p> <a href="www.linkedin.com/in/travis-gorski">Linkdedin </a>  </p>
-
-
-    
-</div>
-<script src="app.js"></script>
-</body>
+      <p><a href="www.linkedin.com/in/travis-gorski">Linkdedin </a></p>
+    </div>
+    <script src="app.js"></script>
+  </body>
 </html>
